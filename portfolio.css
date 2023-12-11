@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.wholeBody {
+  background-image: url(https://i.ibb.co/SPZD6fx/banner.jpg);
+  background-size: cover;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.name {
+  color: rgb(139, 24, 24);
+}
+.name h1:hover {
+  color: rgb(169, 59, 169);
+}
+
+.heading {
+  position: relative;
+
+  background-color: #efefef;
+}
+.heading img {
+  width: 200px;
+  height: 150px;
+}
+.head {
+  display: flex;
+  margin: 10px 20px;
+  width: 80%;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.head ul li {
+  margin: 10px;
+  list-style: none;
+  display: inline-block;
+}
+.head ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.head ul li a:hover {
+  color: red;
+}
+.details {
+  padding: 15px;
+}
+span {
+  color: orange;
+  font-style: italic;
+}
+.details p {
+  line-height: 25px;
+  color: rgb(241, 241, 241);
+  font-size: 20px;
+}
+.details a {
+  background: black;
+  text-decoration: none;
+  margin: 10px 18px;
+  font-weight: bold;
+  color: wheat;
+  display: inline-block;
+  margin: 30px;
+}
+.details {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.details h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #b8b6b6;
+}
+.bottom a {
+  font-size: bold;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: crimson;
+}
+
+.aboutMe h1 h3 {
+  text-align: center;
+}
+.aboutMe h3 span {
+  color: crimson;
+}
+
+.aboutMe {
+  text-align: center;
+}
+.fcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+}
+.fprofile {
+  padding: 0px;
+  box-sizing: border-box;
+  width: 20rem;
+  height: 20rem;
+}
+
+.fdescription {
+  box-sizing: border-box;
+  width: 42rem;
+  height: 30rem;
+  padding-top: 100px;
+}
+#aboutMeSection {
+  padding: 30px;
+}
+.downloadBottom a {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: crimson;
+  color: white;
+  width: 100px;
+  height: auto;
+}
+#services {
+  background-color: rgb(108, 86, 86);
+  color: white;
+  background-size: cover;
+}
+#servicesSection {
+  text-align: center;
+  padding: 30px;
+}
+#servicesSection h3 span {
+  color: crimson;
+}
+.servicePara {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px;
+  margin: 30px;
+}
+
+.fpartOne {
+  padding: 40px 25px;
+  box-sizing: border-box;
+  width: 500px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.fpartTwo {
+  padding: 44px 25px;
+  width: 500px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.servicePara h1 p:hover {
+  color: crimson;
+}
+
+#skillHeading {
+  text-align: center;
+  padding: 30px;
+}
+#skillHeading h3 span {
+  color: crimson;
+}
+.skillSection {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px;
+  margin: 30px;
+}
+.skillOne {
+  line-height: 30px;
+  padding: 40px 25px;
+  box-sizing: border-box;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.skillTwo {
+  padding: 44px 25px;
+  width: 500px;
+  height: auto;
+  line-height: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.click a {
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+  margin-right: 10px;
+}
+.instagram a {
+  display: inline-block;
+  /* margin-top: 20px; */
+  font-weight: 600;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+}
