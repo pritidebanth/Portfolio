@@ -223,3 +223,41 @@ span {
   color: white;
   text-decoration: none;
 }
+#contactMe {
+  text-align: center;
+  padding: 30px;
+}
+#contactMe h3 span {
+  color: crimson;
+}
+.contactForm {
+  background-image: radial-gradient(whitesmoke, violet);
+}
+.contactSection {
+  display: flex;
+  box-sizing: border-box;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px;
+  margin: 30px;
+}
+.contacts {
+  border: 2px solid black;
+  padding: 40px 25px;
+  border-radius: 10px;
+}
+.form {
+  border: 2px solid black;
+  padding: 40px 25px;
+  border-radius: 10px;
+  line-height: 40px;
+}
+.form a {
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: crimson;
+  color: white;
+}
