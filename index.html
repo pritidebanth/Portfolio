@@ -9,7 +9,8 @@
   <body>
     <!-- HOME  -->
     <div id="homePage" class="wholeBody">
-      <div class="heading">
+      <!-- desktop  -->
+      <div id="desktopNavbar" class="heading">
         <div class="head">
           <h1 class="name">Priti Debnath</h1>
           <div>
@@ -23,6 +24,21 @@
           </div>
         </div>
       </div>
+      <!-- mobile  -->
+      <div id="mobileNavbar" class="heading">
+        <div style="justify-content: center" class="head">
+          <h1 class="name">Priti Debnath</h1>
+        </div>
+        <div>
+          <ul id="navbarMobileMenu" class="navbar">
+            <li><a href="#"> HOME</a></li>
+            <li><a href="#"> ABOUT</a></li>
+            <li><a href="#"> PORTFOLIO</a></li>
+            <li><a href="#"> SERVICES</a></li>
+            <li><a href="#"> HIRE ME</a></li>
+          </ul>
+        </div>
+      </div>
 
       <div class="details">
         <h1>Hey i'm <span> Priti </span></h1>
@@ -30,7 +46,7 @@
           This is my official portfolio website to shows all details <br />and
           work experience web development.
         </p>
-        <div class="bottom">
+        <div class="button">
           <a href="https://github.com/pritidebanth/first_project"> Github </a>
         </div>
       </div>
@@ -66,11 +82,11 @@
             Institutions(JBGEI)2022. . Now I am a Web Developer and exploring
             the world of programming.
           </p>
-          <div class="downloadBottom">
+          <div class="downloadButton">
             <a
               href="https://techguruplus.com/wp-content/uploads/2022/12/Resume-CV-Templates-Word-doc-09.jpg"
             >
-              DOWNLOAD BOTTOM
+              DOWNLOAD BUTTON
             </a>
           </div>
         </div>
@@ -83,7 +99,7 @@
         <h1>My Services</h1>
         <h3>&#151; <span> What I provide</span> &#151;</h3>
       </div>
-      <div class="servicePara">
+      <div id="serviceParaMobile" class="servicePara">
         <div class="fpartOne">
           <h2>Created Portfolio Templates related to Career Websites</h2>
           <p>
@@ -96,7 +112,7 @@
             journey."
           </p>
         </div>
-        <div class="fpartTwo">
+        <div class="fpartOne">
           <h2>
             Design of Fuzzy PID Controller for a Hydraulic Transplanting Robot
           </h2>
@@ -121,7 +137,7 @@
         </div>
 
         <div class="skillSection">
-          <div class="skillOne">
+          <div id="skillOneMobile" class="skillOne">
             <h2>My skill and experience</h2>
             <p>
               i'm on continuous journey od learning,driven by my passion for
@@ -130,7 +146,7 @@
               developtment in the field
             </p>
             <div style="padding-top: 50px; display: flex">
-              <div class="click">
+              <div id="clickHere" class="click">
                 <a
                   href="https://github.com/pritidebanth/first_project"
                   target="_blank"
@@ -149,7 +165,7 @@
               <!-- </div> -->
             </div>
           </div>
-          <div class="skillTwo">
+          <div class="skillOne">
             <p>
               <strong>My coding knowledge</strong>
             </p>
@@ -181,7 +197,7 @@
           <h3>&#151; <span> get in touch</span> &#151;</h3>
         </div>
         <div class="contactSection">
-          <div class="contacts">
+          <div id="" class="contacts">
             <h3>Let's connect</h3>
             <p>
               I'm eager to connect with you and explore new opportunities,<br />
@@ -189,24 +205,26 @@
               or collaborations to bring your visions to life. Don't
               <br />hesitate to reach out, and let's start a conversation.
             </p>
-            <p>
-              <strong> Name </strong> <br />
-              Priti Debnath
-            </p>
-            <p>
-              <strong>Phone </strong><br />
-              +91258745625 <br />
-              +912589451256
-            </p>
-            <p>
-              <strong> Email </strong> <br />
-              debnathpriti0226@gmail.com
-            </p>
+            <div class="Hello">
+              <p>
+                <strong> Name </strong> <br />
+                Priti Debnath
+              </p>
+              <p>
+                <strong>Phone </strong><br />
+                +91258745625 <br />
+                +912589451256
+              </p>
+              <p>
+                <strong> Email </strong> <br />
+                debnathpriti0226@gmail.com
+              </p>
+            </div>
           </div>
           <div class="form">
-            <h3>Massage Me</h3>
+            <h3>Message Me</h3>
             <div>
-              <label for="username">username</label>
+              <label for="username">Name</label>
               <input type="text" placeholder="Name" />
             </div>
             <div>
@@ -218,14 +236,9 @@
               <input type="text" placeholder="Subject" />
             </div>
             <div>
-              <label for="massage">massage</label>
-              <input
-                type="text"
-                placeholder="Write your massage"
-                cols="20"
-                row="20"
-              />
-              <div>
+              <label for="message">Message</label>
+              <textarea cols="20" row="20"> </textarea>
+              <div id="sendMessageButton">
                 <a href="tel+912547896543" target="_blank"> Send massage </a>
               </div>
             </div>
@@ -235,3 +248,4 @@
     </div>
   </body>
 </html>
+
