@@ -32,7 +32,7 @@ html {
 }
 .head {
   display: flex;
-  margin: 10px 20px;
+  /* margin: 10px 20px; */
   width: 80%;
   height: auto;
   align-items: center;
@@ -89,6 +89,9 @@ span {
   border-radius: 20px;
   background-color: crimson;
 }
+.button {
+  margin-bottom: 40px;
+}
 
 .aboutMe h1 h3 {
   text-align: center;
@@ -122,18 +125,19 @@ span {
   padding-top: 100px;
 }
 #aboutMeSection {
-  padding: 30px;
+  padding: 20px 0px;
 }
 .downloadButton a {
-  font-size: 15px;
-  font-weight: 800;
-  padding: 20px 30px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 15px 20px;
   border-radius: 10px;
   background-color: crimson;
   color: white;
   width: 100px;
   height: auto;
 }
+
 #services {
   background-color: rgb(108, 86, 86);
   color: white;
@@ -157,13 +161,13 @@ span {
 }
 
 .fpartOne {
-  padding: 25px;
+  padding: 13px;
   box-sizing: border-box;
   width: 450px;
   height: auto;
   border: 2px solid black;
   border-radius: 10px;
-  margin: 20px;
+  margin: 12px;
 }
 
 /* .fpartTwo {
@@ -222,6 +226,7 @@ span {
   color: white;
   margin-right: 10px;
   flex-flow: row wrap;
+  text-decoration: none;
 }
 .instagram a {
   /* margin-top: 20px; */
@@ -248,15 +253,14 @@ span {
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 70px;
-  margin: 30px;
+  padding: 50px 30px 50px 30px;
+  /* margin: 30px;  */
 }
 .contacts {
-  padding: 40px 25px;
   border-radius: 10px;
 }
 .form {
-  padding: 40px 25px;
+  padding: 27px 0px 0px 0px;
   border-radius: 10px;
   line-height: 40px;
 }
@@ -267,9 +271,10 @@ span {
   border-radius: 20px;
   background-color: crimson;
   color: white;
+  text-decoration: none;
 }
 .Hello {
-  padding-left: 20px;
+  padding-left: 11px;
 }
 #sendMessageButton {
   margin-top: 30px;
@@ -294,12 +299,18 @@ span {
     color: black;
     font-weight: bold;
     text-decoration: underline;
+    text-align: center;
     /* margin-top: 60px; */
+  }
+  .contactSection {
+    margin: 16px;
   }
   #clickHere {
     display: flex;
     /* padding: 10px 20px;  */
     flex-flow: row wrap;
+    padding: 15px 10px;
+    text-decoration: none;
   }
   #services {
     margin-top: 410px;
@@ -323,6 +334,45 @@ span {
     padding: 3px;
     margin: 2px;
   }
+  #aboutMobile {
+    font-size: 14px;
+  }
+  .fcontainer {
+    padding: 0px 0px 0px 0px;
+  }
+  #aboutMeSection {
+    padding: 40px 0px 0px 0px;
+  }
+  .fdescription {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 15rem;
+    height: 20rem;
+  }
+  .downloadButton a {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 10px;
+    width: 20px;
+    height: auto;
+    text-decoration: none;
+  }
+  .downloadButton {
+    margin-top: 40px;
+  }
+  .skillOne {
+    font-size: 12px;
+  }
+  .wholeBody {
+    height: 100vh;
+  }
+  .click a {
+    margin-top: 20px;
+    padding: 10px 15px;
+  }
+  .form a {
+    padding: 15px 20px;
+  }
 }
 
 /* desktop  */
@@ -331,4 +381,3 @@ span {
     display: none;
   }
 }
-
